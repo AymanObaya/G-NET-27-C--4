@@ -164,6 +164,28 @@
             //Console.WriteLine(fileType);
 
             #endregion
+
+            #region QUESTION 4
+            //int temperature = 35;
+            //string weatherAdvice = temperature < 0 ? "Freezing! Stay indoors." :
+            //                       temperature < 15 ? "Cold. Wear a jacket." :
+            //                       temperature < 25 ? "Pleasant weather." :
+            //                       temperature < 35 ? "Warm. Stay hydrated." :
+            //                                          "Hot! Avoid sun exposure";
+            //Console.WriteLine(weatherAdvice);
+            /* 
+             * Use ternary operators when:
+                The logic is simple and short
+                You’re assigning a value based on a small number of conditions
+                Not recommended nested ternaery
+
+             * Use if / else when:
+                There are multiple conditions
+                The logic might grow or change
+                Readability and maintainability matter
+                no problem when make nested if / else
+            */ 
+            #endregion
         }
     }
 }
