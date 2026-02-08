@@ -57,6 +57,71 @@
             //Console.WriteLine($"string Time    :{Watch02.ElapsedMilliseconds}"); 
             #endregion
 
+            #region QUESTION 2
+            //double price = 0.00;
+            //int age;
+            //int dayOfWeek;
+            //bool hasStudentID;
+            //StringBuilder breakdown = new StringBuilder();
+
+            //Console.WriteLine("Enter your age:");
+            //int.TryParse(Console.ReadLine(), out age);
+
+            //Console.WriteLine("Enter the day of the week (1-7, where 6 = Fri, 7 = Sat):");
+            //int.TryParse(Console.ReadLine(), out dayOfWeek);
+
+            //Console.WriteLine("Do you have a student ID? (1 = yes , 0 = no):");
+            //hasStudentID = Console.ReadLine() == "1";
+
+            //if (age <= 0  dayOfWeek <= 0  dayOfWeek > 7)
+            //{
+            //    Console.WriteLine("Invalid input. Age or day of week are invalid.");
+            //    return;
+            //}
+            //else
+            //{
+            //    // Calculate base price based on age
+            //    if (age < 5)
+            //    {
+            //        price = 0.00;
+            //        breakdown.AppendLine("Age < 5: Free");
+            //    }
+            //    else if (age >= 5 && age <= 12)
+            //    {
+            //        price = 30.00;
+            //        breakdown.AppendLine("Age 5 - 12: 30 LE");
+            //    }
+            //    else if (age >= 13 && age <= 59)
+            //    {
+            //        price = 50.00;
+            //        breakdown.AppendLine("Age 13 - 59: 50 LE");
+            //    }
+            //    else
+            //    {
+            //        price = 25.00;
+            //        breakdown.AppendLine("Age 60 +: 25 LE");
+            //    }
+
+            //    // Add weekend surcharge if applicable
+            //    if ( (dayOfWeek == 6 || dayOfWeek == 7) && price > 0.00)
+            //    {
+            //       price += 10.00;
+            //       breakdown.AppendLine("Weekend surcharge: +10 LE");
+            //    }
+
+            //    // Apply student discount if applicable
+            //    if (hasStudentID && price > 0.00)
+            //    {
+            //        double discount = price * 0.20;
+            //        price -= discount;
+            //        breakdown.AppendLine($"Student discount -20%: {discount} LE");
+            //    }
+            //}
+
+            //Console.WriteLine($"\nFinal Price: {price} LE");
+            //Console.WriteLine($"\nPrice Breakdown: \n{breakdown}"); 
+            #endregion
+
         }
     }
 }
