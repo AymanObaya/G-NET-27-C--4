@@ -273,6 +273,81 @@
             //    Console.WriteLine("Account locked.");
             //} 
             #endregion
+
+            #region QUESTION 6
+            ////            int[] scores = { 85, 42, 91, 67, 55, 78, 39, 88, 72, 95, 60, 48 };
+
+            ////            //(a)find and display all failing scores
+            ////            StringBuilder failingScores = new StringBuilder("Failing scores (below 50): ");
+
+            ////            for (int i = 0; i < scores.Length; i++)
+            ////            {
+            ////                if (scores[i] < 50)
+            ////                {
+            ////                    failingScores.Append(scores[i] + " ");
+            ////                }
+            ////            }
+            ////            Console.WriteLine(failingScores.ToString());
+
+            ////            //(b)find the first score above 90 and stop searching immediately
+            ////            for (int i = 0; i < scores.Length; i++)
+            ////            {
+            ////                if (scores[i] > 90)
+            ////                {
+            ////                    Console.WriteLine("First score above 90: " + scores[i]);
+            ////                    break;
+            ////                }
+            ////            }
+
+            ////           // (c)calculate the class average, excluding any scores below 40
+            ////            int total = 0;
+            ////        int count = 0;
+            ////        int average = 0;
+            ////            for (int i = 0; i<scores.Length; i++)
+            ////            {
+            ////                if (scores[i] >= 40)
+            ////                {
+            ////                    total += scores[i];
+            ////                    count++;
+            ////                }
+            ////}
+            ////average = total / count;
+            ////Console.WriteLine("Class average (excluding scores below 40): " + average);
+
+
+            //////(d)count how many students scored in each grade range
+            ////            int countA = 0;
+            ////int countB = 0;
+            ////int countC = 0;
+            ////int countD = 0;
+            ////int countF = 0;
+
+            ////foreach (int score in scores)
+            ////{
+            ////    if (score >= 90 && score <= 100)
+            ////    {
+            ////        countA++;
+            ////    }
+            ////    else if (score >= 80 && score <= 89)
+            ////    {
+            ////        countB++;
+            ////    }
+            ////    else if (score >= 70 && score <= 79)
+            ////    {
+            ////        countC++;
+            ////    }
+            ////    else if (score >= 60 && score <= 69)
+            ////    {
+            ////        countD++;
+            ////    }
+            ////    else
+            ////    {
+            ////        countF++;
+            ////    }
+            ////}
+
+            ////Console.WriteLine($"Grade Range Count:\nA: {countA}\nB: {countB}\nC: {countC}\nD: {countD}\nF: {countF}"); 
+            #endregion
         }
     }
 }
