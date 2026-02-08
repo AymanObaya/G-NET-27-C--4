@@ -122,6 +122,48 @@
             //Console.WriteLine($"\nPrice Breakdown: \n{breakdown}"); 
             #endregion
 
+            #region QUESTION 3
+            //Traditional switch statement:
+            //string fileExtension = ".doc";
+            //string fileType;
+            //switch (fileExtension)
+            //{
+            //    case ".pdf":
+            //        fileType = "PDF Document";
+            //        break;
+            //    case ".docx":
+            //    case ".doc":
+            //        fileType = "Word Document";
+            //        break;
+            //    case ".xlsx":
+            //    case ".xls":
+            //        fileType = "Excel Spreadsheet";
+            //        break;
+            //    case ".jpg":
+            //    case ".png":
+            //    case ".gif":
+            //        fileType = "Image File";
+            //        break;
+            //    default:
+            //        fileType = "Unknown File Type";
+            //        break;
+            //}
+            //Console.WriteLine(fileType);
+
+            //Switch expression:
+            //string fileExtension = ".pdf";
+            //string fileType;
+            //fileType = fileExtension switch
+            //{
+            //    ".pdf" => "PDF Document",
+            //    ".docx" or ".doc" => "Word Document",
+            //    ".xlsx" or ".xls" => "Excel Spreadsheet",
+            //    ".jpg" or ".png" or ".gif" => "Image File",
+            //    _ => "Unknown File Type"
+            //};
+            //Console.WriteLine(fileType);
+
+            #endregion
         }
     }
 }
