@@ -184,7 +184,94 @@
                 The logic might grow or change
                 Readability and maintainability matter
                 no problem when make nested if / else
-            */ 
+            */
+            #endregion
+
+            #region QUESTION 5
+            //int attempts = 0;
+            //string password;
+            //bool hasUppercase = false;
+            //bool hasDigit = false;
+            //bool hasWhitespace = false;
+            //bool passwordAccepted = false;
+
+            //Console.WriteLine("Enter a password:");
+            //password = Console.ReadLine() ?? "";
+
+
+            //do
+            //{
+
+            //    if (password.Length >= 8)
+            //    {
+            //        //iterate through characters to check for uppercase, digit, and whitespace
+            //        foreach (char c in password)
+            //        {
+            //            if (char.IsUpper(c))
+            //            {
+            //                hasUppercase = true;
+            //            }
+            //            if (char.IsDigit(c))
+            //            {
+            //                hasDigit = true;
+            //            }
+            //            if (char.IsWhiteSpace(c))
+            //            {
+            //                hasWhitespace = true;
+            //            }
+            //        }
+
+            //        //validate conditions and provide feedback
+            //        if (hasUppercase && hasDigit && !hasWhitespace)
+            //        {
+            //            //if all conditions met, accept password and break loop
+            //            passwordAccepted = true;
+            //            break;
+            //        }
+            //        else
+            //        {
+            //            //if any conditions are violated, inform user and increment attempts
+            //            if (!hasUppercase)
+            //            {
+            //                Console.WriteLine("Password must contain at least one uppercase letter.");
+            //            }
+            //            if (!hasDigit)
+            //            {
+            //                Console.WriteLine("Password must contain at least one digit.");
+            //            }
+            //            if (hasWhitespace)
+            //            {
+            //                Console.WriteLine("Password must not contain spaces.");
+            //            }
+
+            //            //reset the flags for the next attempt
+            //            hasUppercase = false;
+            //            hasDigit = false;
+            //            hasWhitespace = false;
+
+            //            attempts++;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Password must be at least 8 characters long.");
+            //        attempts++;
+            //    }
+
+            //    Console.WriteLine("\nEnter another password: ");
+            //    password = Console.ReadLine() ?? "";
+
+            //} while (attempts < 5);
+
+            ////check if attempts exceeded limit
+            //if (passwordAccepted)
+            //{
+            //    Console.WriteLine("Password accepted!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Account locked.");
+            //} 
             #endregion
         }
     }
